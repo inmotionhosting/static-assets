@@ -1,0 +1,26 @@
+name: Deploy Images
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: self-hosted
+    steps:
+    - name: ssh
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.FMC_PRODUCTION }}
+        username: ${{ secrets.GH_ACTIONS_SSH_USER }}
+        key: ${{ secrets.GH_ACTIONS_SSH_PK }}
+        passphrase: ${{ secrets.GH_ACTIONS_SSH_PW }}
+        script: |
+          cd ~/build
+          curl -LJ https://$(cat ~/GH_TOKEN.txt)@api.github.com/repos/BoldGrid/inmotion-assets/zipball/master -o release.zip
+          BUILD_DIR=$(zipinfo -1 release.zip | grep -oE '^[^/]+' | uniq)
+          unzip release.zip
+          rm -f release.zip
+          sudo cp -prf $BUILD_DIR/* ~/volumes/assets
+          rm -rf $BUILD_DIR
