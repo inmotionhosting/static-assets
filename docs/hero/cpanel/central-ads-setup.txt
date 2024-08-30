@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script inserts a custom hero banner advertisement for InMotion Central into the targeted cPanel theme's main page.
 
 # Define template file path
 TEMAPLATE_FILE='/usr/local/cpanel/base/frontend/jupiter/tools/index.tt'
