@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script inserts a custom hero banner advertisement for InMotion Central into the targeted cPanel theme's main page.
 
 # Define template file path
 TEMAPLATE_FILE='/usr/local/cpanel/base/frontend/jupiter/tools/index.tt'
@@ -10,5 +11,11 @@ if [ -n "$(grep central-offer-container $TEMAPLATE_FILE)" ]; then
 fi
 
 # Insert adversisement (overrides display_cpanel_promotions feature)
+# Current configuration:
+#    - ONLY Displays on accounts with the following packages
+#        - WP Core
+#        - WP Launch
+#        - WP Power
+#        - WP Pro
 echo 'Inserting InMotion Central Advertisement';
-sed -i '/div id="main"/a [% SET display_cpanel_promotions = false; SET stats = execute( "StatsBar", "get_stats", { "display" => "hostingpackage" } ); %][% FOREACH stats.data %][% IF value == "WP Core" || value == "WP Launch" || value == "WP Power" || value == "WP Pro" %]<div class="central-offer-container"><a href="https://central.inmotionhosting.com/guide/project/cpanel" target="_blank" class="central-offer" title="Try Managed WordPress on the all new Platform InMotion!"><img src="https://inmotionhosting.github.io/static-assets/hero/cpanel/central-managed-wordpress-trial-offer.svg" height="100%"></a></div><style>.central-offer-container{overflow:hidden;border-radius: 10px;margin-bottom: 1rem;}#devWarningBlock{display:none}</style>[% END %][% END %]' $TEMAPLATE_FILE && echo;
+sed -i '/div id="main"/a [% SET display_cpanel_promotions = false; SET stats = execute( "StatsBar", "get_stats", { "display" => "hostingpackage" } ); %][% FOREACH stats.data %][% IF value == "WP Core" || value == "WP Launch" || value == "WP Power" || value == "WP Pro" %]<div class="central-offer-container"><a href="https://stage-central.inmotionhosting.com/guide/project/cpanel" target="_blank" class="central-offer" title="Try Managed WordPress on the all new Platform InMotion!"><img src="https://inmotionhosting.github.io/static-assets/hero/cpanel/central-managed-wordpress-trial-offer.svg" height="100%"></a></div><style>.central-offer-container{overflow:hidden;border-radius: 10px;margin-bottom: 1rem;}#devWarningBlock{display:none}</style>[% END %][% END %]' $TEMAPLATE_FILE && echo;
