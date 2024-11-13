@@ -1,36 +1,36 @@
 [
     {
-        key: 'projects',
-        alwaysShow: true,
-        validUrls: [
-            '/projects'
+        "key": "projects",
+        "alwaysShow": true,
+        "validUrls": [
+            "/projects"
         ],
-        options: {
-            showProgress: false,
-            steps: [
-                { popover: { title: 'Projects View', description: 'Get acquainted with your projects page' } },
-                { element: '#new-project-header', popover: { title: 'Create Projects', description: 'Click here to create a new project', side: "left", align: 'start' } },
-                { element: 'central-team-selector', popover: { title: 'Teams', description: 'Manage teams and select your active team here', side: "left", align: 'start' } },
-                { element: '.preview', popover: { title: 'Projects', description: 'Click on a project preview to manage your project and view further details', side: "left", align: 'start' } },
-                { popover: { title: 'End', description: 'pls close.' } }
+        "options": {
+            "showProgress": false,
+            "steps": [
+                { "popover": { "title": "Projects View", "description": "Get acquainted with your projects page" } },
+                { "element": "#new-project-header", "popover": { "title": "Create Projects", "description": "Click here to create a new project", "side": "left", "align": "start" } },
+                { "element": "central-team-selector", "popover": { "title": "Teams", "description": "Manage teams and select your active team here", "side": "left", "align": "start" } },
+                { "element": ".preview", "popover": { "title": "Projects", "description": "Click on a project preview to manage your project and view further details", "side": "left", "align": "start" } },
+                { "popover": { "title": "End", "description": "pls close." } }
             ]
-        },
+        }
     },
     {
-        key: 'projects2',
-        alwaysShow: false,
-        validUrls: [
-            '/projects'
+        "key": "projects2",
+        "alwaysShow": true,
+        "validUrls": [
+            "/projects"
         ],
-        options: {
-            showProgress: false,
-            steps: [
-                { popover: { title: 'Projects View 2', description: 'Get acquainted with your projects page' } },
-                { element: '#new-project-header', popover: { title: 'Create Projects', description: 'Click here to create a new project', side: "left", align: 'start' } },
-                { element: 'central-team-selector', popover: { title: 'Teams', description: 'Manage teams and select your active team here', side: "left", align: 'start' } },
-                { element: '.preview', popover: { title: 'Projects', description: 'Click on a project preview to manage your project and view further details', side: "left", align: 'start' } },
-                { popover: { title: 'End', description: 'pls close.' } }
+        "options": {
+            "showProgress": false,
+            "steps": [
+                { "popover": { "title": "Projects View", "description": "Get acquainted with your projects page" } },
+                { "element": "#new-project-header", "popover": { "title": "Create Projects", "description": "Click here to create a new project", "side": "left", "align": "start" } },
+                { "element": "central-team-selector", "popover": { "title": "Teams", "description": "Manage teams and select your active team here", "side": "left", "align": "start" } },
+                { "element": ".preview", "popover": { "title": "Projects", "description": "Click on a project preview to manage your project and view further details", "side": "left", "align": "start" } },
+                { "popover": { "title": "End", "description": "pls close." } }
             ]
-        },
-    },
+        }
+    }
 ]
