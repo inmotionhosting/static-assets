@@ -1,0 +1,32 @@
+[
+    {
+        start: '2025-07-07',
+        end:   '2025-07-31',
+        img: 'https://inmotionhosting.github.io/static-assets/hero/cpanel/QuickSiteforWP.svg',
+        link: 'https://www.inmotionhosting.com/services/quicksite?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=quicksite&p_prod=ps&p_ev=awareness'
+    },
+    {
+        start: '2025-08-01',
+        end:   '2025-08-21',
+        img: 'https://inmotionhosting.github.io/static-assets/hero/cpanel/SEOFoundations.svg',
+        link: 'https://www.inmotionhosting.com/services/wordpress-seo?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=seofoundation&p_prod=ps&p_ev=awareness'
+    },
+    {
+        start: '2025-08-22',
+        end:   '2025-09-11',
+        img: 'https://inmotionhosting.github.io/static-assets/hero/cpanel/ProServicesV2.svg',
+        link: 'https://www.inmotionhosting.com/services?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=general-v2&p_prod=ps&p_ev=awareness'
+    },
+    {
+        start: '2025-09-12',
+        end:   '2025-10-02',
+        img: 'https://inmotionhosting.github.io/static-assets/hero/cpanel/Rebuild.svg',
+        link: 'https://www.inmotionhosting.com/services/site-rebuild?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=rebuild&p_prod=ps&p_ev=awareness'
+    },
+    {
+        start: '2025-10-03',
+        end:   '2025-10-31',
+        img: 'https://inmotionhosting.github.io/static-assets/hero/cpanel/ProServicesV1.svg',
+        link: 'https://www.inmotionhosting.com/services?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=general-v1&p_prod=ps&p_ev=awareness'
+    }
+]
