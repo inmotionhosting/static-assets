@@ -1,39 +1,7 @@
 [
     {
-        "start": "2025-07-07",
-        "end":   "2025-07-31",
-        "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/QuickSiteforWP.svg",
-        "link": "https://www.inmotionhosting.com/services/quicksite?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=quicksite&p_prod=ps&p_ev=awareness",
-        "plans": [
-            "Core",
-            "Lite",
-            "Launch",
-            "Power",
-            "Pro",
-            "WP500S",
-            "WP1000S",
-            "WP2000S",
-            "WP3000S",
-            "WP4000S",
-            "WP5000S",
-            "WP6000S",
-            "WebsiteCreator",
-            "WPSMB",
-            "WP Core",
-            "WP Launch",
-            "WP Power",
-            "WP Pro",
-            "Legacy_Launch",
-            "Legacy_Power",
-            "Legacy_Pro",
-            "Legacy_WP Launch",
-            "Legacy_WP Power",
-            "Legacy_WP Pro"
-        ]
-    },
-    {
-        "start": "2025-08-01",
-        "end":   "2025-08-21",
+        "start": "2025-11-17",
+        "end":   "2025-11-30",
         "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/SEOFoundations.svg",
         "link": "https://www.inmotionhosting.com/services/wordpress-seo?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=seofoundation&p_prod=ps&p_ev=awareness",
         "plans": [
@@ -64,8 +32,72 @@
         ]
     },
     {
-        "start": "2025-08-22",
-        "end":   "2025-09-11",
+        "start": "2025-12-01",
+        "end":   "2025-12-15",
+        "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/QuickSiteforWP.svg",
+        "link": "https://www.inmotionhosting.com/services/quicksite?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=quicksite&p_prod=ps&p_ev=awareness",
+        "plans": [
+            "Core",
+            "Lite",
+            "Launch",
+            "Power",
+            "Pro",
+            "WP500S",
+            "WP1000S",
+            "WP2000S",
+            "WP3000S",
+            "WP4000S",
+            "WP5000S",
+            "WP6000S",
+            "WebsiteCreator",
+            "WPSMB",
+            "WP Core",
+            "WP Launch",
+            "WP Power",
+            "WP Pro",
+            "Legacy_Launch",
+            "Legacy_Power",
+            "Legacy_Pro",
+            "Legacy_WP Launch",
+            "Legacy_WP Power",
+            "Legacy_WP Pro"
+        ]
+    },
+    {
+        "start": "2025-12-16",
+        "end":   "2025-12-29",
+        "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/SEOFoundations.svg",
+        "link": "https://www.inmotionhosting.com/services/wordpress-seo?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=seofoundation&p_prod=ps&p_ev=awareness",
+        "plans": [
+            "Core",
+            "Lite",
+            "Launch",
+            "Power",
+            "Pro",
+            "WP500S",
+            "WP1000S",
+            "WP2000S",
+            "WP3000S",
+            "WP4000S",
+            "WP5000S",
+            "WP6000S",
+            "WebsiteCreator",
+            "WPSMB",
+            "WP Core",
+            "WP Launch",
+            "WP Power",
+            "WP Pro",
+            "Legacy_Launch",
+            "Legacy_Power",
+            "Legacy_Pro",
+            "Legacy_WP Launch",
+            "Legacy_WP Power",
+            "Legacy_WP Pro"
+        ]
+    },
+    {
+        "start": "2025-12-30",
+        "end":   "2026-01-12",
         "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/ProServicesV2.svg",
         "link": "https://www.inmotionhosting.com/services?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=general-v2&p_prod=ps&p_ev=awareness",
         "plans": [
@@ -96,8 +128,8 @@
         ]
     },
     {
-        "start": "2025-09-12",
-        "end":   "2025-10-02",
+        "start": "2026-01-13",
+        "end":   "2026-01-26",
         "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/Rebuild.svg",
         "link": "https://www.inmotionhosting.com/services/site-rebuild?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=rebuild&p_prod=ps&p_ev=awareness",
         "plans": [
@@ -128,8 +160,8 @@
         ]
     },
     {
-        "start": "2025-10-03",
-        "end":   "2025-10-31",
+        "start": "2026-01-27",
+        "end":   "2026-02-09",
         "img": "https://inmotionhosting.github.io/static-assets/hero/cpanel/ProServicesV1.svg",
         "link": "https://www.inmotionhosting.com/services?mktgp=t&utm_campaign=proservices-interest&utm_source=cpanel&utm_medium=banner&utm_term=general-v1&p_prod=ps&p_ev=awareness",
         "plans": [
